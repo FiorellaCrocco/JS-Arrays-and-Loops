@@ -1,4 +1,4 @@
 //you code here
-for(let i = 0,i < 18, i++){
-    console.log(i);
+for(let i = 1; i <= 17; i = i + 1){
+    console.log(i)
 }
