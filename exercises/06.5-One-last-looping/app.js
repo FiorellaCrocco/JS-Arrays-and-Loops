@@ -2,8 +2,7 @@ let mySampleArray = ['Esmeralda', 'Kiko', 'Ruth', 'Lebron', 'Pedro', 'Maria', 'L
 
 //your code here
 
-for(let i = mySampleArray.length; i >= 0; i--){
-    console.log(i)
+for(let i = mySampleArray.length-1; i >= 0; i--){
+    console.log(mySampleArray[i]);
 }
 
-console.log(mySampleArray);
