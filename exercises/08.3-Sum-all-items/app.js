@@ -5,4 +5,4 @@ function sumTheElements(theArray){
 	//your code here
 
 	return total;
-}
+} 
