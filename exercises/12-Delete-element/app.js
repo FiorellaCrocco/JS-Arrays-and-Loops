@@ -4,11 +4,21 @@ function deletePerson(personName) {
 	//your code here
 	let newPeople = [];
 
-	for (p = people; p !== personName; p++) {
-		newPeople.push(p)
+	/* for (let p = 0; p < people.length; p++) {
+		if (personName !== people[p]){
+			newPeople.push(people[p]);
 
+		}
+
+	} */
+
+	for(let name of people){
+		if (personName !== name){
+			newPeople.push(name);
+		}
 	}
-	return (newPeople);
+
+	return newPeople;
 	
 }
 console.log(deletePerson('daniella'));
